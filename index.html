@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project Css</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="flex container">
+      <div class="logo">
+        <img src="./assets/images/logo.png" alt="logo" />
+      </div>
+      <nav>
+        <ul>
+          <img class="close" src="./assets/images/close.png" alt="close" />
+          <li class="active"><a href="#">menu</a></li>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">our specials</a></li>
+          <li><a href="#">our locations</a></li>
+          <li><a href="#">our cheffs</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <ul class="flex">
+          <li>
+            <a href=""><img src="./assets/images/search.svg" alt="search" /></a>
+          </li>
+          <li class="cart">
+            <a href=""><img src="./assets/images/basket.svg" alt="basket" /></a>
+            <span class="flex">2</span>
+          </li>
+          <li>
+            <a href=""><img src="./assets/images/person.svg" alt="person" /></a>
+          </li>
+          <li>
+            <a
+              ><img
+                class="burger"
+                src="./assets/images/burger-bar.png"
+                alt="burger"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Hero Section -->
+    <section>
+      <main class="hero flex">
+        <div class="hero-text">
+          <h5>Now taking online ordres</h5>
+          <h1 class="custom-heading">kababs</h1>
+          <p>
+            Restaurant style Yogurt Mint Sauce is delicious dip which is quick
+            and easy to ... This is a standard Indian mint chutney served with
+            poppadums along with mint and lemon.
+          </p>
+          <div class="buttons flex">
+            <button class="btn second-btn">Add To Cart</button>
+            <button class="btn second-btn">Book a Table</button>
+          </div>
+          <div class="times flex">
+            <div>
+              <h3>Lunch</h3>
+              <p>1:00-03:00pm</p>
+            </div>
+            <div>
+              <h3>Dinner</h3>
+              <p>7:00-10:00pm</p>
+            </div>
+          </div>
+          <div class="circles flex">
+            <span></span>
+            <span></span>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="hero-img">
+          <div class="img">
+            <img src="./assets/images/Hero Image.png" alt="hero" />
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </main>
+    </section>
+    <!-- End Hero Section -->
+    <!-- Start Popular Products -->
+    <section class="popular-products">
+      <main class="container popular">
+        <div class="heading flex">
+          <h3>Online Store</h3>
+          <h2 class="custom-heading">
+            Popular Products
+            <img src="./assets/images/Shape.png" />
+          </h2>
+        </div>
+        <div class="products container flex">
+          <div class="product flex">
+            <img src="./assets/images/products/Product-1.png" alt="products" />
+            <div class="info flex">
+              <a href=""><img src="./assets/images/Rating.svg" alt="" /></a>
+              <p class="capitalized">chinease</p>
+              <h3 class="capitalized">hot wings</h3>
+            </div>
+            <button class="btn main-btn flex">
+              <div>Add to Cart</div>
+              <span class="price">$14.00</span>
+            </button>
+          </div>
+          <div class="product flex">
+            <img src="./assets/images/products/Product-2.png" alt="products" />
+            <div class="info flex">
+              <a href=""><img src="./assets/images/Rating.svg" alt="" /></a>
+              <p class="capitalized">Indian Style</p>
+              <h3 class="capitalized">Rice with Curry</h3>
+            </div>
+            <button class="btn main-btn flex">
+              <div>Add to Cart</div>
+              <span class="price">$22.00</span>
+            </button>
+          </div>
+          <div class="product flex">
+            <img src="./assets/images/products/Product-3.png" alt="products" />
+            <div class="info flex">
+              <a href=""><img src="./assets/images/Rating (1).svg" alt="" /></a>
+              <p class="capitalized">Pakistani Style</p>
+              <h3 class="capitalized">Chapatees</h3>
+            </div>
+            <button class="btn main-btn flex">
+              <div>Add to Cart</div>
+              <span class="price">$18.00</span>
+            </button>
+          </div>
+          <div class="product flex">
+            <img src="./assets/images/products/Product-4.png" alt="products" />
+            <div class="info flex">
+              <a href=""><img src="./assets/images/Rating (2).svg" alt="" /></a>
+              <p class="capitalized">Western Style</p>
+              <h3 class="capitalized">Sweetdish</h3>
+            </div>
+            <button class="btn main-btn flex">
+              <div>Add to Cart</div>
+              <span class="price">$16.00</span>
+            </button>
+          </div>
+        </div>
+      </main>
+      <div class="bg-section">
+        <img src="./assets/images/image 35.png" alt="" />
+      </div>
+    </section>
+    <!-- End Popular Products -->
+    <!-- Start Categories -->
+    <section>
+      <main class="categories-wrapper container flex">
+        <div class="categories">
+          <ul class="flex">
+            <li class="flex">
+              <div class="cat-img">
+                <img
+                  src="./assets/images/button-icons-left/icon-1.png"
+                  alt=""
+                />
+              </div>
+              <div>Coffe</div>
+            </li>
+            <li class="flex">
+              <div class="cat-img">
+                <img
+                  src="./assets/images/button-icons-left/icon-2.png"
+                  alt=""
+                />
+              </div>
+              <div>Fast Food</div>
+            </li>
+            <li class="flex">
+              <div class="cat-img">
+                <img
+                  src="./assets/images/button-icons-left/icon-3.png"
+                  alt=""
+                />
+              </div>
+              <div>Pizza</div>
+            </li>
+            <li class="flex">
+              <div class="cat-img">
+                <img
+                  src="./assets/images/button-icons-left/icon-4.png"
+                  alt=""
+                />
+              </div>
+              <div>Desi Menu</div>
+            </li>
+            <li class="flex">
+              <div class="cat-img">
+                <img
+                  src="./assets/images/button-icons-left/icon-5.png"
+                  alt=""
+                />
+              </div>
+              <div>Desserts</div>
+            </li>
+            <div class="slider"></div>
+          </ul>
+        </div>
+        <div class="categories-text flex">
+          <div class="dots">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h5 class="flex">
+            Faster Food Delivery Service
+            <span><img src="./assets/images/delivery-man 1.png" alt="" /></span>
+          </h5>
+          <h2 class="custom-heading">Get delivered while it is still hot.</h2>
+          <p>
+            Bring together your discussions memberships and content. Start your
+            7-day free trial.
+          </p>
+          <button class="btn second-btn">GET STARTED</button>
+          <div class="coffe">
+            <img src="./assets/images/Mask Group.png" alt="" />
+          </div>
+          <div class="sugar">
+            <img src="./assets/images/Decor.png" alt="" />
+          </div>
+          <div class="bg-section">
+            <img src="./assets/images/image 34.png" alt="" />
+          </div>
+          <div class="cofee">
+            <img src="./assets/images/conffe.png" alt="" />
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- End Categories -->
+    <!-- Start PopularMenu -->
+    <section class="popular-menu">
+      <main class="menu-wrapper">
+        <div class="heading flex">
+          <h3>Popular Menu</h3>
+          <h2 class="custom-heading">Amazing Food Served With Delicacy</h2>
+        </div>
+        <div class="products container flex">
+          <div class="product">
+            <div class="img flex">
+              <img src="./assets/images/menu-cards/Dish-1.png" alt="products" />
+            </div>
+            <div class="info flex">
+              <a href=""><img src="./assets/images/Rating.svg" alt="" /></a>
+              <h3 class="capitalized">Dishim with Fries and Sause</h3>
+              <p class="capitalized">
+                Lorem Ipsum Lorem Ipsum is simply and dummy text of the
+                printing.
+              </p>
+            </div>
+            <div class="price flex">
+              <div><p>$7.10</p></div>
+              <div class="social flex">
+                <div class="fav flex">
+                  <img src="./assets/images/Vector.svg" alt="" />
+                </div>
+                <div class="share flex">
+                  <img src="./assets/images/ic_share_48px 1.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img flex">
+              <img src="./assets/images/menu-cards/Dish-2.png" alt="" />
+            </div>
+            <div class="info flex">
+              <a href=""><img src="./assets/images/Rating.svg" alt="" /></a>
+              <h3 class="capitalized">Chicken Hot Wings</h3>
+              <p class="capitalized">
+                Lorem Ipsum Lorem Ipsum is simply and dummy text of the
+                printing.
+              </p>
+            </div>
+            <div class="price flex">
+              <div><p>$6.40</p></div>
+              <div class="social flex">
+                <div class="fav flex">
+                  <img src="./assets/images/Vector.svg" alt="" />
+                </div>
+                <div class="share flex">
+                  <img src="./assets/images/ic_share_48px 1.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img flex">
+              <img src="./assets/images/menu-cards/Dish-3.png" alt="" />
+            </div>
+            <div class="info flex">
+              <a href=""><img src="./assets/images/Rating.svg" alt="" /></a>
+              <h3 class="capitalized">Samosas with Green Chatni</h3>
+              <p class="capitalized">
+                Lorem Ipsum Lorem Ipsum is simply and dummy text of the
+                printing.
+              </p>
+            </div>
+            <div class="price flex">
+              <div><p>$4.80</p></div>
+              <div class="social flex">
+                <div class="fav flex">
+                  <img src="./assets/images/Vector.svg" alt="" />
+                </div>
+                <div class="share flex">
+                  <img src="./assets/images/ic_share_48px 1.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img flex">
+              <img src="./assets/images/menu-cards/Dish-4.png" alt="" />
+            </div>
+            <div class="info flex">
+              <a href=""><img src="./assets/images/Rating.svg" alt="" /></a>
+              <h3 class="capitalized">Sweet Sawaiyan</h3>
+              <p class="capitalized">
+                Lorem Ipsum Lorem Ipsum is simply and dummy text of the
+                printing.
+              </p>
+            </div>
+            <div class="price flex">
+              <div><p>$5.10</p></div>
+              <div class="social flex">
+                <div class="fav flex">
+                  <img src="./assets/images/Vector.svg" alt="" />
+                </div>
+                <div class="share flex">
+                  <img src="./assets/images/ic_share_48px 1.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img flex">
+              <img src="./assets/images/menu-cards/Dish-5.png" alt="" />
+            </div>
+            <div class="info flex">
+              <a href=""><img src="./assets/images/Rating.svg" alt="" /></a>
+              <h3 class="capitalized">Fried Raw Fish</h3>
+              <p class="capitalized">
+                Lorem Ipsum Lorem Ipsum is simply and dummy text of the
+                printing.
+              </p>
+            </div>
+            <div class="price flex">
+              <div><p>$3.60</p></div>
+              <div class="social flex">
+                <div class="fav flex">
+                  <img src="./assets/images/Vector.svg" alt="" />
+                </div>
+                <div class="share flex">
+                  <img src="./assets/images/ic_share_48px 1.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img flex">
+              <img src="./assets/images/menu-cards/Dish-6.png" alt="" />
+            </div>
+            <div class="info flex">
+              <a href=""><img src="./assets/images/Rating.svg" alt="" /></a>
+              <h3 class="capitalized">Brakefast with Half Fried Egg</h3>
+              <p class="capitalized">
+                Lorem Ipsum Lorem Ipsum is simply and dummy text of the
+                printing.
+              </p>
+            </div>
+            <div class="price flex">
+              <div><p>$6.40</p></div>
+              <div class="social flex">
+                <div class="fav flex">
+                  <img src="./assets/images/Vector.svg" alt="" />
+                </div>
+                <div class="share flex">
+                  <img src="./assets/images/ic_share_48px 1.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button flex">
+          <button class="btn second-btn">See All Menu</button>
+          <div class="sec-bg">
+            <img src="./assets/images/Decore.png" alt="" />
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- End PopularMenu -->
+    <!-- Start Download -->
+    <section class="download-app">
+      <main class="download flex container">
+        <div class="download-img">
+          <img src="./assets/images/Mobile.png" alt="mobile" />
+          <div class="download-bg">
+            <img src="./assets/images/Decoredownload.png" alt="decore" />
+          </div>
+        </div>
+        <div class="download-text">
+          <h3>DOWNLOAD OUR APP</h3>
+          <h2 class="custom-heading">It’s all here. All in one app.</h2>
+          <p>
+            Discover local, on-demand delivery or Pickup from restaurants,
+            nearby grocery and convenience stores, and more.
+          </p>
+          <div class="store-btns">
+            <a href="">
+              <img src="./assets/images/button-App store.png" alt="appstore"
+            /></a>
+            <a href=""
+              ><img src="./assets/images/button-Play store.png" alt="playstore"
+            /></a>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- End Download -->
+    <!-- Start Testimonial  -->
+    <section>
+      <main class="testimonial container">
+        <div class="testi-heading flex">
+          <h3>TESTIMONAILS</h3>
+          <h2 class="custom-heading">
+            What they saying <img src="./assets/images/Shape.png" />
+          </h2>
+        </div>
+        <div class="text container flex">
+          <div class="left-content flex">
+            <div class="img">
+              <img src="./assets/images/testi1.png" alt="person" />
+            </div>
+            <div class="info">
+              <h3>Natasha Malik</h3>
+              <h5>California</h5>
+              <img
+                class="rate"
+                src="./assets/images/Rating (1).svg"
+                alt="rate"
+              />
+              <p>
+                “Him rendered may attended concerns jennings reserved now.
+                <span class="capitalized">Sympathize</span> did now preference
+                unpleasing mrs few. Mrs for
+                <span class="capitalized">hour game</span> room want are fond
+                dare. For detract charmed add talking age. Shy
+                <span class="capitalized">resolution instrument</span>
+                unreserved man few mr at discretion reasonable. Age out full
+                gate bed day lose.”
+              </p>
+            </div>
+          </div>
+          <div class="right-content flex">
+            <div class="img">
+              <img src="./assets/images/testi2.png" alt="person" />
+            </div>
+            <div class="info">
+              <h3>AR Shakir</h3>
+              <h5>Arizona</h5>
+              <img
+                class="rate"
+                src="./assets/images/Rating (1).svg"
+                alt="rate"
+              />
+              <p>
+                “Out believe has request not how comfort evident. Up
+                <span class="capitalized">delight cousins</span> we feeling
+                minutes. Genius has looked end piqued spring. Down has rose feel
+                find man. Learning day desirous informed expenses material
+                returned six the. She
+                <span class="capitalized">enabled</span> invited exposed him
+                another.<span class="capitalized">Reasonably conviction</span>
+                solicitude me mr at discretion reasonable. Age out full gate bed
+                day lose.”
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="discount flex">
+          <h3>
+            Get special Discounts
+            <img src="./assets/images/Shapediscount.png" />
+          </h3>
+          <p>
+            Input email address and complete your subscription to get our
+            special offer.
+          </p>
+          <div class="email">
+            <input type="email" placeholder="shakir260@gmail.com" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </main>
+    </section>
+    <section class="footer">
+      <footer class="container flex">
+        <div class="social">
+          <ul class="social-icons menu">
+            <li><img src="./assets/images/logo footer.png" alt="logo" /></li>
+            <li>
+              <ul class="icons flex">
+                <li>
+                  <a href=""
+                    ><img
+                      src="./assets/images/facebook-icon.svg"
+                      alt="facebook"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./assets/images/twitter-icon.svg" alt="twitter"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img
+                      src="./assets/images/instagram-icon.svg"
+                      alt="instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img
+                      src="./assets/images/linkedin-icon.svg"
+                      alt="linkedin"
+                  /></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h3>Contact</h3>
+          <ul class="flex menu">
+            <li>
+              <a href="">
+                <span>
+                  <img src="./assets/images/Location.svg" alt="location"
+                /></span>
+                <span>
+                  F1 - 320 Jeff Heights, Main Blvd, Gulberg, Lahore, Pakistan
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span>
+                  <img src="./assets/images/SMS.svg" alt="location"
+                /></span>
+                +92 - 300 - 115 - 222 -444
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span>
+                  <img src="./assets/images/call.svg" alt="location"
+                /></span>
+                support@yannal.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="support">
+          <h3>Support</h3>
+          <ul class="flex menu">
+            <li>
+              <a href="">Faq</a>
+            </li>
+            <li>
+              <a href="">Shipping & Returns</a>
+            </li>
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+            <li>
+              <a href="">Our Partners</a>
+            </li>
+          </ul>
+        </div>
+        <div class="info">
+          <h3>Info</h3>
+          <ul class="flex menu">
+            <li>
+              <a href="">Dates</a>
+            </li>
+            <li>
+              <a href="">Parties</a>
+            </li>
+            <li>
+              <a href="">Brithdays</a>
+            </li>
+            <li>
+              <a href="">Menu</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <div class="copyright">&copy;2021 Yannal Resturant</div>
+    </section>
+    <!-- End Testimonial  -->
+    <script src="main.js"></script>
+  </body>
+</html>
